@@ -7,7 +7,7 @@ const {
     useMultiFileAuthState,
     delay,
     makeCacheableSignalKeyStore
-} = require("@whiskeysockets/baileys": "github:DaffaDeveloper/daf-bails");
+} = require("@whiskeysockets/baileys": "github:seiren-primrose/PL-Baileys");
 
 function removeFile(FilePath){
     if(!fs.existsSync(FilePath)) return false;
